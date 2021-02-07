@@ -13,10 +13,7 @@ class OgerTranslator():
                 translated += " "+word if translated else word
                 continue
 
-            specialchars = ".,\/#!$%\^&\*;:{}=\-_`~()]"
-            specialcharstuples = []
-            for char in specialchars:
-                specialcharstuples.append((char, ""))
+            punctuations = translations.punctuations.keys()
 
             linebreak = ""
             while (word[0] in "\r\n"):
@@ -34,12 +31,12 @@ class OgerTranslator():
                 word = word.replace('"', '')
 
             punctuation = ""
-            if (word[-1] in specialchars):
+            if (word[-1] in punctuations):
                 punctuation = word[-1]
                 word = word[0:-1]
             
-            for tuple in specialcharstuples:
-                word = word.replace(*tuple)
+            for p in punctuations:
+                word = word.replace(p, "")
 
             # translate whole words if translation available
             if (translations.translations.__contains__(word)):
@@ -47,7 +44,7 @@ class OgerTranslator():
             # translate chars otherwise
             else:
                 for twist in translations.twistedChars:
-                    word = word.replace(twist, translations.twistedChars[twist][random.randint(0, len(translations.twistedChars[twist])-1)])
+                    word = ("^"+word+"$").replace(twist, translations.twistedChars[twist][random.randint(0, len(translations.twistedChars[twist])-1)])[1:-1]
 
             if (punctuation):
                 if (translations.punctuations.__contains__(punctuation)):

@@ -1,146 +1,32 @@
 # adapted from https://ogertranslate.ml/translation/de-oger.js
 
 translations = {
-  "Rainer": [
-    "Ruiner",
-    "Reiner",
-    "Dreger",
-    "Kaschber",
-    "Legasdeniger",
-    "Fettsack",
-    "viddl Iddaliener",
-    "Butter",
-    "Mastoger",
-    "Suppengmogo",
-    "Speggi",
-    "Vierteltonner"
-  ],
+  "Rainer": ["Ruiner", "Reiner", "Dreger", "Kaschber", "Legasdeniger", "Fettsack", "viddl Iddaliener", "Butter", "Mastoger", "Suppengmogo", "Speggi", "Vierteltonner"],
 
-  "Rainerle": [
-    "Ruinerle",
-    "Reinerle",
-    "Dregerle",
-    "Kaschberle",
-    "Legasdenigerle",
-    "Fettsackle",
-    "viddl Iddaliener",
-    "Butter",
-    "Mastogerle",
-    "Suppengmogole",
-    "Speggi"
-  ],
+  "Rainerle": ["Ruinerle", "Reinerle", "Dregerle", "Kaschberle", "Legasdenigerle", "Fettsackle", "viddl Iddaliener", "Butter", "Mastogerle", "Suppengmogole", "Speggi"],
 
-  "Winkler": [
-    "Wongl",
-    "Winggl",
-    "Lard",
-    "Bummsdi",
-    "Golem",
-    "Oger",
-    "Jutubber",
-    "Fettsack",
-    "Mastoger",
-    "Winklar",
-    "Dr.Dr.h.c.M.A Winkler",
-    "Speggi"
-  ],
+  "Winkler": ["Wongl", "Winggl", "Lard", "Bummsdi", "Golem", "Oger", "Jutubber", "Fettsack", "Mastoger", "Winklar", "Dr.Dr.h.c.M.A Winkler", "Speggi"],
 
-  "Drachenlord": [
-    "Fettsack",
-    "Wiggsgrübbl",
-    "Speckeimer",
-    "Lügenlord",
-    "Hoch IQ Lord",
-    "Jutubber",
-    "Butter Golem",
-    "Mastoger",
-    "Mastsau",
-    "Oger",
-    "Suppengmogo",
-    "Gumbllord",
-    "Lustlord",
-    "Informatiklord",
-    "Speggi",
-    "Vierteltonner",
-    "Animewelt Lord",
-    "Diabetesdumbo",
-    "selbständiger Schichtarbeiter"
-  ],
+  "Drachenlord": ["Fettsack", "Wiggsgrübbl", "Speckeimer", "Lügenlord", "Hoch IQ Lord", "Jutubber", "Butter Golem", "Mastoger", "Mastsau", "Oger", "Suppengmogo", "Gumbllord", "Lustlord", "Informatiklord", "Speggi", "Vierteltonner", "Animewelt Lord", "Diabetesdumbo", "selbständiger Schichtarbeiter"],
 
-  "Lord": [
-    "Lard",
-    "Lerd",
-    "Bummsdi",
-    "Lügenlord",
-    "Schwitzlord",
-    "Sifflord",
-    "Fettsack",
-    "begnadeter Jutubber",
-    "Butter Golem",
-    "Oger",
-    "Suppengmogo",
-    "Arbeitslord"
-  ],
+  "Lord": ["Lard", "Lerd", "Bummsdi", "Lügenlord", "Schwitzlord", "Sifflord", "Fettsack", "begnadeter Jutubber", "Butter Golem", "Oger", "Suppengmogo", "Arbeitslord"],
 
-  "Video": [
-    "fideo",
-    "fidio"
-  ],
+  "Video": ["fideo", "fidio"],
 
-  "Videos": [
-    "fideos",
-    "fidios"
-  ],
+  "Videos": ["fideos", "fidios"],
 
-  "Drache": [
-    "Dreche",
-    "Dreger",
-    "Fettsack",
-    "viddl Iddaliener",
-    "Wiggsgrübbl",
-    "Net der Drache verdammte Aggst",
-    "Speckeimer",
-    "Suppengmogo",
-    "Wuchtbrummer"
-  ],
+  "Drache": ["Dreche", "Dreger", "Fettsack", "viddl Iddaliener", "Wiggsgrübbl", "Net der Drache verdammte Aggst", "Speckeimer", "Suppengmogo", "Wuchtbrummer"],
 
-  "Bauch": [
-    "Plautze",
-    "Wampe",
-    "Kessel",
-    "Wuchtbrumme"
-  ],
+  "Bauch": ["Plautze", "Wampe", "Kessel", "Wuchtbrumme"],
 
-  "Haus": [
-    "Schanze",
-    "Schimmelschanze",
-    "Ruine"
-  ],
+  "Haus": ["Schanze", "Schimmelschanze", "Ruine"],
 
-  "Schanze": [
-    "Schanze",
-    "Schimmelschanze",
-    "Ruine"
-  ],
+  "Schanze": ["Schanze", "Schimmelschanze", "Ruine"],
 
-  "alter": [
-    "alda",
-    "alla "
-  ],
-  "Alter": [
-    "Alda",
-    "Alla "
-  ],
-  "hallo": [
-    "meddl loide",
-    "servus und wilkommen",
-    "gonitschiwa"
-  ],
-  "Hallo": [
-    "Meddl loide",
-    "Servus und wilkommen",
-    "Gonitschiwa"
-  ],
+  "alter": ["alda", "alla "],
+  "Alter": ["Alda", "Alla "],
+  "hallo": ["meddl loide", "servus und wilkommen", "gonitschiwa"],
+  "Hallo": ["Meddl loide", "Servus und wilkommen", "Gonitschiwa"],
 
   "leute": ["loide"],
   "Leute": ["Loide"],
@@ -166,39 +52,17 @@ translations = {
   "Post": ["Boscht"],
   "post": ["boscht"],
 
-  "Idiot": [
-    "Kaggnazi",
-    "Wiggsgrübbl",
-    "Affennecher",
-    "Spaggn"
-  ],
-  "idiot": [
-    "Kaggnazi",
-    "Wiggsgrübbl",
-    "Affennecher",
-    "Spaggn"
-  ],
+  "Idiot": ["Kaggnazi", "Wiggsgrübbl", "Affennecher", "Spaggn"],
+  "idiot": ["Kaggnazi", "Wiggsgrübbl", "Affennecher", "Spaggn"],
 
   "Nazi": ["Kaggnazi"],
   "nazi": ["kaggnazi"],
 
-  "Rudi": [
-    "Rudi",
-    "Rudi aus Buddeln",
-    "SS-Obersturmbannführer Rudolf Winkler",
-    "Nazi-Kriegsverbrecher Rudolf Winkler"
-  ],
+  "Rudi": ["Rudi", "Rudi aus Buddeln", "SS-Obersturmbannführer Rudolf Winkler", "Nazi-Kriegsverbrecher Rudolf Winkler"],
 
-  "Rita": [
-    "Rita",
-    "Riter",
-    "Rita aus Weiden"
-  ],
+  "Rita": ["Rita", "Riter", "Rita aus Weiden"],
 
-  "Ramona": [
-    "Ramona",
-    "Ramoner"
-  ],
+  "Ramona": ["Ramona", "Ramoner"],
 
   "reddit": ["Lachschon"],
 
@@ -207,22 +71,15 @@ translations = {
 
   "dumm": ["brainschaden"],
 
-  "Energy": [
-    "Enertschie"
-  ],
+  "Energy": ["Enertschie"],
 
-  "energy": [
-    "enertschie"
-  ],
+  "energy": ["enertschie"],
 
   "ein": ["a", "oa"],
 
   "fit": ["fidd"],
 
-  "nicht hören": [
-    "Ich hör dich ned du Spack, ich hab Kopfhörer auf",
-    "can you not hear"
-  ],
+  "nicht hören": ["Ich hör dich ned du Spack, ich hab Kopfhörer auf", "can you not hear"],
 
   "Job": ["Tschobb"],
   "job": ["Tschobb"],
@@ -248,67 +105,31 @@ translations = {
 
   "Geld": ["Barrne"],
   "Euro": ["Barrne €"],
-  "geld ": ["Barrne"],
-  "euro ": ["Barrne €"],
+  "geld": ["Barrne"],
+  "euro": ["Barrne €"],
   "Upvote": ["Barrne"],
   "upvote": ["Barrne"],
 
   "wütend": ["neutral"],
   "Wütend": ["Neutral"],
 
-  "gemacht": [
-    "nausgrendert"
-  ],
+  "gemacht": ["nausgrendert"],
 
-  "raus gehaun": [
-    "nausgrendert"
-  ],
+  "raus gehaun": ["nausgrendert"],
 
-  "raus hauen": [
-    "nausrendern"
-  ],
+  "raus hauen": ["nausrendern"],
 
-  "gegessen": [
-    "neigschürt",
-    "neigerendert",
-    "neigstopft",
-    "neimeddld",
-    "in's gsicht gedrüggd",
-    "gnadenlos in's gsicht nei gedrüggt"
-  ],
+  "gegessen": ["neigschürt", "neigerendert", "neigstopft", "neimeddld", "in's gsicht gedrüggd", "gnadenlos in's gsicht nei gedrüggt"],
 
-  "fressen": [
-    "neinschüren",
-    "reinnrendern",
-    "neistopfen",
-    "neimeddln"
-  ],
+  "fressen": ["neinschüren", "reinnrendern", "neistopfen", "neimeddln"],
 
-  "gefressen": [
-    "neigschürt",
-    "neigerendert",
-    "neigstopft",
-    "neimeddld"
-  ],
+  "gefressen": ["neigschürt", "neigerendert", "neigstopft", "neimeddld"],
 
-  "essen": [
-    "neinschüren",
-    "reinnrendern",
-    "neistopfen",
-    "neimeddln",
-    "in's gsicht drüggen",
-    "gnadenlos in's gsicht drüggen"
+  "essen": ["neinschüren", "reinnrendern", "neistopfen", "neimeddln", "in's gsicht drüggen", "gnadenlos in's gsicht drüggen"
 
   ],
 
-  "isst": [
-    "neirenderd",
-    "neischürd",
-    "neistopft",
-    "neimeddlt",
-    "in's gsicht drüggt",
-    "gnadenlos in's gsicht drüggt"
-  ],
+  "isst": ["neirenderd", "neischürd", "neistopft", "neimeddlt", "in's gsicht drüggt", "gnadenlos in's gsicht drüggt"],
 
   "Angst": ["wie se immer zuggen"],
   "angst": ["wie se immer zuggen"],
@@ -318,14 +139,8 @@ translations = {
   "Gummipuppe": ["Froindin"],
   "gummipuppe": ["Froindin"],
 
-  "Freund": [
-    "Gumbl",
-    "Froind"
-  ],
-  "freund": [
-    "Gumbl",
-    "Froind"
-  ],
+  "Freund": ["Gumbl", "Froind"],
+  "freund": ["Gumbl", "Froind"],
 
   "Freunde": ["ihr Wahnsinnichen"],
 
@@ -337,10 +152,7 @@ translations = {
 
   "sagst": ["sachste"],
 
-  "programmieren": [
-    "HDML proggrammiert",
-    "in Gimb nei speichern"
-  ],
+  "programmieren": ["HDML proggrammiert", "in Gimb nei speichern"],
 
   "sauer": ["mett"],
 
@@ -372,7 +184,8 @@ translations = {
 
   "mal": ["mol", "moal"],
 
-  "einma ": ["amol ", "amoal "],
+  "einma": ["amol ", "amoal "],
+  "einmal": ["amol ", "amoal "],
 
   "Gimp": ["Gimb"],
 
@@ -386,26 +199,13 @@ translations = {
 
   "freut mich": ["hadschimi masde"],
 
-  "Zelda": [
-    "Zelad bride of the Wind",
-    "Tselda bref of se wild",
-    "Tselda"
-  ],
+  "Zelda": ["Zelad bride of the Wind", "Tselda bref of se wild", "Tselda"],
 
-  "Bier": [
-    "Löschzwerg",
-    "Vigginger-Blud"
-  ],
+  "Bier": ["Löschzwerg", "Vigginger-Blud"],
 
-  "Manieren": [
-    "Alda kein Erziehung genossen?",
-    "Eure Eltern würden sich schämen"
-  ],
+  "Manieren": ["Alda kein Erziehung genossen?", "Eure Eltern würden sich schämen"],
 
-  "manieren": [
-    "Alda kein Erziehung genossen?",
-    "Eure Eltern würden sich schämen"
-  ],
+  "manieren": ["Alda kein Erziehung genossen?", "Eure Eltern würden sich schämen"],
 
   "Franken": ["Meddlfranggen"],
   "franken": ["meddlfranggen"],
@@ -435,37 +235,15 @@ translations = {
   "Kampfsport": ["Muay-Thai"],
   "kampfsport": ["Muay-Thai"],
 
-  "hacken": [
-    "in Gimb neispeichern",
-    "in Gimb neirendern"
-  ],
+  "hacken": ["in Gimb neispeichern", "in Gimb neirendern"],
 
-  "gehackt": [
-    "in Gimb neispeichert",
-    "in Gimb neigrendert"
-  ],
+  "gehackt": ["in Gimb neispeichert", "in Gimb neigrendert"],
 
-  "arbeitet": [
-    "Schneidet, rendert, läd-hoch",
-    "Frisst, Wiggst, Zockt",
-    "Led's plaiet"
-  ],
+  "arbeitet": ["Schneidet, rendert, läd-hoch", "Frisst, Wiggst, Zockt", "Led's plaiet"],
 
-  "Arbeit": [
-    "Schneiden, rendern, hochladen",
-    "Fressne, Wiggsne, Zockne",
-    "Led's plaien"
-  ],
-  "arbeit": [
-    "schneiden, rendern, hochladen",
-    "fressne, Wiggsne, Zockne",
-    "Led's plaien"
-  ],
-  "arbeiten": [
-    "schneiden, rendern, hochladen",
-    "fressne, Wiggsne, Zockne",
-    "Led's plain"
-  ],
+  "Arbeit": ["Schneiden, rendern, hochladen", "Fressne, Wiggsne, Zockne", "Led's plaien"],
+  "arbeit": ["schneiden, rendern, hochladen", "fressne, Wiggsne, Zockne", "Led's plaien"],
+  "arbeiten": ["schneiden, rendern, hochladen", "fressne, Wiggsne, Zockne", "Led's plain"],
   "besonders": ["höchste Wesne"],
 
   "Gott": ["Dreche himself"],
@@ -508,10 +286,7 @@ translations = {
   "ist gut": ["bin gerückt"],
   "Ist gut": ["Bin gerückt"],
 
-  "gut": [
-    "richtig und wichtig!",
-    "naise Sache"
-  ],
+  "gut": ["richtig und wichtig!", "naise Sache"],
 
   "nicht": ["ned"],
 
@@ -588,14 +363,8 @@ translations = {
   "Mettwurst": ["Meddworsd"],
   "mettwurst": ["meddworsd"],
 
-  "Mittwoch": [
-    "Mettwoch",
-    "Meddlwoch"
-  ],
-  "mittwoch": [
-    "mettwoch",
-    "meddlwoch"
-  ],
+  "Mittwoch": ["Mettwoch", "Meddlwoch"],
+  "mittwoch": ["mettwoch", "meddlwoch"],
 
   "nationalsozialistisch": ["narzistisch"],
   "Nationalsozialist": ["Narzist"],
@@ -675,19 +444,9 @@ translations = {
   "Rewe": ["Zwingel"],
   "rewe": ["Zwingel"],
 
-  "Ezio": [
-    "ETZIO, ALDA",
-    "ETZIO",
-    "ÄZZIOH",
-    "ÄZZIO DU BIST EIN VERDAMMTER HURENSOHN"
-  ],
+  "Ezio": ["ETZIO, ALDA", "ETZIO", "ÄZZIOH", "ÄZZIO DU BIST EIN VERDAMMTER HURENSOHN"],
 
-  "ETZIO": [
-    "ETZIO, ALDA",
-    "ETZIO",
-    "ÄZZIOH",
-    "ÄZZIO DU BIST EIN VERDAMMTER HURENSOHN"
-  ],
+  "ETZIO": ["ETZIO, ALDA", "ETZIO", "ÄZZIOH", "ÄZZIO DU BIST EIN VERDAMMTER HURENSOHN"],
 
   "trivial": ["trivago"],
   "Trivial": ["Trivago"],
@@ -697,10 +456,7 @@ translations = {
   "dass": ["das"],
   "wenn": ["wen"],
 
-  "ficken": [
-    "positzioniren",
-    "bositzioniren"
-  ],
+  "ficken": ["positzioniren", "bositzioniren"],
 
   "wichsen": ["wiggsne"],
   "masturbieren": ["wiggsne"],
@@ -737,12 +493,7 @@ translations = {
   "Halts maul": ["HALT *atmen* DEINE *atmen* FRESSE"],
   "halts maul": ["HALT *atmen* DEINE *atmen* FRESSE"],
 
-  "tatsächlich": [
-    "tazächlich",
-    "tadzächlich",
-    "etzala tazächlich sogar",
-    "etzala tadzächlich sogar"
-  ],
+  "tatsächlich": ["tazächlich", "tadzächlich", "etzala tazächlich sogar", "etzala tadzächlich sogar"],
 
   "Metal": ["Meddl"],
 
@@ -751,33 +502,36 @@ translations = {
 
   "implizier": ["implementier"],
 
-  "Mund": ["Schlund"]
+  "Mund": ["Schlund"],
+
+  "Gerade": ["Grad", "Jedsd grad"],
+  "gerade": ["grad", "jedsd grad"]
 }
 
 questionMark = [
-  " Oda wat?",
-  " Hä?",
+  "? Oda wat?",
+  ", hä?",
   " und weida?",
   "?",
   "?"
 ]
 
 exclamationMark = [
-  " etzala!",
-  " tazächlich!",
-  " tazächlich sogar!",
-  " hätt ich gsachd!",
-  " alda!",
-  " des bascht scho!",
+  ", etzala!",
+  ", tazächlich!",
+  ", tazächlich sogar!",
+  ", hätt ich gsachd!",
+  ", alda!",
+  ", des bascht scho!",
   "!",
   "!"
 ]
 
 dot = [" hätt ich gsachd.",
-  " des bascht scho.",
-  " alda.",
-  " tadsächlich sogar.",
-  ". Etzala ",
+  ", des bascht scho.",
+  ", alda.",
+  ", tadsächlich sogar.",
+  ". Etzala. ",
   ". ",
   ". ",
   ". ",
@@ -786,16 +540,8 @@ dot = [" hätt ich gsachd.",
 
 twistedChars = {
   "en": ["ne"],
-  "en.": ["ne."],
-  "en?": ["ne?"],
-  "en!": ["ne!"],
-  "en,": ["ne,"],
   "tz": ["ds"],
   "tel": ["dl"],
-  "tel.": ["dl."],
-  "tel?": ["dl?"],
-  "tel!": ["dl!"],
-  "tel,": ["dl,"],
   "ph": ["f"],
   "Ph": ["F"],
   "pa": ["boa"],
@@ -804,20 +550,12 @@ twistedChars = {
   "sp": ["schb"],
   "St": ["Schd"],
   "st": ["schd"],
-  "eug ": ["euch"],
-  "eug.": ["euch."],
-  "eug?": ["euch?"],
-  "eug!": ["euch!"],
-  "eug,": ["euch,"],
+  "eug$": ["euch$"],
   "t": ["d"],
   "T": ["D"],
   "v": ["f"],
   "V": ["F"],
   "v": ["f"],
-  "v.": ["f."],
-  "v?": ["f?"],
-  "v!": ["f!"],
-  "v,": ["f,"],
   "v": ["w"],
   "V": ["W"],
   "xx": ["ggs"],
@@ -832,4 +570,4 @@ twistedChars = {
 
 quotationMark = [" *ferstellt Stimme:* \"Üh, "]
 
-punctuations = {'.': dot, '!': exclamationMark, '?': questionMark}
+punctuations = {'.': dot, '!': exclamationMark, '?': questionMark, ',': {}}
