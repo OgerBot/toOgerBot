@@ -25,8 +25,8 @@ translations = {
 
   "alter": ["alda", "alla "],
   "Alter": ["Alda", "Alla "],
-  "hallo": ["meddl loide", "servus und wilkommne", "gonitschiwa"],
-  "Hallo": ["Meddl loide", "Servus und wilkommne", "Gonitschiwa"],
+  "hallo": ["meddl loide", "servus und wilkommne", "servus unn an herdsliches wilkommne", "gonitschiwa"],
+  "Hallo": ["Meddl loide", "Servus und wilkommne", "Servus unn an herdsliches wilkommne", "Gonitschiwa"],
 
   "leute": ["loide"],
   "Leute": ["Loide"],
@@ -505,7 +505,9 @@ translations = {
   "Mund": ["Schlund"],
 
   "Gerade": ["Grad", "Jedsd grad"],
-  "gerade": ["grad", "jedsd grad"]
+  "gerade": ["grad", "jedsd grad"],
+
+  "...": ["und so", "und so weida", "joaa", "ähh", "..."]
 }
 
 questionMark = [
@@ -538,7 +540,12 @@ dot = [" hätt ich gsachd.",
   ". "
 ]
 
+colon = [", des heißd im Glaadegsd",
+   ": "
+]
+
 twistedChars = {
+  "hen$": ["hn$"],
   "en$": ["ne$"],
   "tz": ["ds"],
   "tel": ["dl"],
@@ -565,9 +572,10 @@ twistedChars = {
   "p": ["b"],
   "P": ["B"],
   "k": ["g"],
-  "K": ["G"]
+  "K": ["G"],
+  "..$": [" und so", " und so weida", " joaa", " ähh", "..."]
 }
 
 quotationMark = [" *ferstellt Stimme:* \"Üh, "]
 
-punctuations = {'.': dot, '!': exclamationMark, '?': questionMark, ',': [',']}
+punctuations = {'.': dot, '!': exclamationMark, '?': questionMark, ',': [','], ':': colon}
