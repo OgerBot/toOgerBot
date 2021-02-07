@@ -30,7 +30,7 @@ class OgerTranslator():
                 word = word[0:-1]          
 
             punctuation = ""
-            if (word[-1] in punctuations):
+            if (word[-1] in punctuations and not word[-3:] == "..."):
                 punctuation = word[-1]
                 word = word[0:-1]
 
