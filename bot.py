@@ -7,7 +7,7 @@ from translate import OgerTranslator
 import logging
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                     level=logging.DEBUG)
+                     level=logging.INFO)
 
 token = open("token.SECRET").read()
 updater = Updater(token=token, use_context=True)
