@@ -570,4 +570,4 @@ twistedChars = {
 
 quotationMark = [" *ferstellt Stimme:* \"Üh, "]
 
-punctuations = {'.': dot, '!': exclamationMark, '?': questionMark, ',': {}}
+punctuations = {'.': dot, '!': exclamationMark, '?': questionMark, ',': [',']}
