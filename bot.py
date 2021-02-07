@@ -9,15 +9,15 @@ import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
 
-token = open("token.SECRET").read()
+token = open("token.SECRET").read().replace("\n", "")
 updater = Updater(token=token, use_context=True)
 dispatcher = updater.dispatcher
 
 def start(update, context):
-    startnachricht = "Ich übersedse deinne Scheiß in Meddlfrängisch dazächlich! Schreib @toOgerBot <deine Nachrichd>"
-                            # Ich übersetze deinen Scheiß in Meddlfrängisch! Schreib @toOgerBot <deine Nachricht> 
-                            # TODO: dynamisch in Meddlfrängisch übersetzen
+    startnachricht = "Hallo. Ich übersetze deinen Scheiß in Meddlfrängisch! Schreib:"
+    command = "@toOgerBot <deine Nachricht>"
 
+    startnachricht = OgerTranslator.translate(startnachricht) + " " + command
     context.bot.send_message(chat_id=update.effective_chat.id, text=startnachricht)
                              
 def echo(update, context):
