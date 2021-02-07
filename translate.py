@@ -9,6 +9,9 @@ class OgerTranslator():
         translated = ""
 
         for word in words:
+            if word[0:4] == "http":
+                continue
+
             specialchars = ".,\/#!$%\^&\*;:{}=\-_`~()]"
             specialcharstuples = []
             for char in specialchars:
