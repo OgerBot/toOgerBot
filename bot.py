@@ -22,7 +22,12 @@ def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text=startnachricht)
                              
 def echo(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text=update.message.text)
+    """
+        translates messages and sends them back
+    """
+    message = update.message.text
+    response = "Meintest du vielleicht:\n" + message
+    context.bot.send_message(chat_id=update.effective_chat.id, text=OgerTranslator.translate(response))
 
 
 def inline_translate(update, context):
@@ -43,8 +48,11 @@ def inline_translate(update, context):
 start_handler = CommandHandler('start', start)
 dispatcher.add_handler(start_handler)
 
-#echo_handler = MessageHandler(Filters.text & (~Filters.command), echo)
-#dispatcher.add_handler(echo_handler)
+"""
+    do echo handling for text messages in private chats only, but not for messages that come via the bot itself or replies
+"""
+echo_handler = MessageHandler(Filters.text & Filters.chat_type.private & (~Filters.via_bot(username="@toOgerBot")) & (~Filters.reply)  & (~Filters.command), echo)
+dispatcher.add_handler(echo_handler)
 
 inline_translator = InlineQueryHandler(inline_translate)
 dispatcher.add_handler(inline_translator)
