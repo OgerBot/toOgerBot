@@ -26,7 +26,7 @@ def echo(update, context):
         translates messages and sends them back
     """
     message = update.message.text
-    response = "Meintest du vielleicht:\n" + message
+    response = "Meintest du vielleicht: \n" + message
     context.bot.send_message(chat_id=update.effective_chat.id, text=OgerTranslator.translate(response))
 
 

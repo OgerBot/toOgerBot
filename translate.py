@@ -18,6 +18,11 @@ class OgerTranslator():
             for char in specialchars:
                 specialcharstuples.append((char, ""))
 
+            linebreak = ""
+            while (word[0] in "\r\n"):
+                linebreak += word[0]
+                word = word[1:]
+
             quotation = ""
             if word[0] == '"':
                 quotation = "start"
@@ -54,7 +59,8 @@ class OgerTranslator():
             elif quotation == "end":
                 word += '"'
 
-            translated += " "+word if translated else word
+            translated += " " + linebreak + word if translated else linebreak + word
+
         return translated
 
 #print(OgerTranslator.translate('"Rainer stinkt!"'))
