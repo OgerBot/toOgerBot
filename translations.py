@@ -539,7 +539,7 @@ dot = [" hätt ich gsachd.",
 ]
 
 twistedChars = {
-  "en": ["ne"],
+  "en$": ["ne$"],
   "tz": ["ds"],
   "tel": ["dl"],
   "ph": ["f"],
