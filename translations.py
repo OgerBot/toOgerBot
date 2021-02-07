@@ -505,9 +505,7 @@ translations = {
   "Mund": ["Schlund"],
 
   "Gerade": ["Grad", "Jedsd grad"],
-  "gerade": ["grad", "jedsd grad"],
-
-  "...": ["und so", "und so weida", "joaa", "ähh", "..."]
+  "gerade": ["grad", "jedsd grad"]
 }
 
 questionMark = [
@@ -573,7 +571,7 @@ twistedChars = {
   "P": ["B"],
   "k": ["g"],
   "K": ["G"],
-  "..$": [" und so", " und so weida", " joaa", " ähh", "..."]
+  "...$": [" und so$", " und so weida$", " joaa$", " ähh$", "... ...$"]
 }
 
 quotationMark = [" *ferstellt Stimme:* \"Üh, "]
