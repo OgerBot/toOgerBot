@@ -23,20 +23,16 @@ class OgerTranslator():
             quotation = ""
             if word[0] == '"':
                 quotation = "start"
+                word = word[1:]
 
             if word[-1] == '"':
                 quotation = "end"
-
-            if '"' in word:
-                word = word.replace('"', '')
+                word = word[0:-1]          
 
             punctuation = ""
             if (word[-1] in punctuations):
                 punctuation = word[-1]
                 word = word[0:-1]
-            
-            for p in punctuations:
-                word = word.replace(p, "")
 
             # translate whole words if translation available
             if (translations.translations.__contains__(word)):
