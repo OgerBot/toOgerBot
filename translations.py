@@ -25,8 +25,8 @@ translations = {
 
   "alter": ["alda", "alla "],
   "Alter": ["Alda", "Alla "],
-  "hallo": ["meddl loide", "servus und wilkommen", "gonitschiwa"],
-  "Hallo": ["Meddl loide", "Servus und wilkommen", "Gonitschiwa"],
+  "hallo": ["meddl loide", "servus und wilkommne", "gonitschiwa"],
+  "Hallo": ["Meddl loide", "Servus und wilkommne", "Gonitschiwa"],
 
   "leute": ["loide"],
   "Leute": ["Loide"],
