@@ -1,3 +1,4 @@
+# coding=utf-8
 from telegram.ext import Updater
 from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
@@ -31,7 +32,7 @@ def inline_translate(update, context):
     results = list()
     results.append(
         InlineQueryResultArticle(
-            id=query.upper(),
+            id=hash(query),
             title='Meddlfrängische Übersetzung',
             input_message_content=InputTextMessageContent(OgerTranslator.translate(query)),
             thumb_url = 'https://ogertranslate.ml/assets/img/dzo-logo.png'
