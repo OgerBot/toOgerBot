@@ -247,9 +247,9 @@ translations = {
   "na und": ["und weida?"],
 
   "Geld": ["Barrne"],
-  "Euro": ["Barrne â‚¬"],
+  "Euro": ["Barrne €"],
   "geld ": ["Barrne"],
-  "euro ": ["Barrne â‚¬"],
+  "euro ": ["Barrne €"],
   "Upvote": ["Barrne"],
   "upvote": ["Barrne"],
 
