@@ -7,6 +7,7 @@ class OgerTranslator():
     def translate(cls, message: str):
         words = message.split(" ")
         translated = ""
+        mentions = ""
 
         for word in words:
             if word[0:4] == "http":
@@ -18,6 +19,12 @@ class OgerTranslator():
             linebreak = ""
             while (word[0] in "\r\n"):
                 linebreak += word[0]
+                word = word[1:]
+
+            is_mention = False
+            if word[0] == "@":
+                mentions += "\n(" + word if not mentions else " " + word
+                is_mention = True
                 word = word[1:]
 
             quotation = ""
@@ -52,7 +59,11 @@ class OgerTranslator():
             elif quotation == "end":
                 word += '"'
 
+            if (is_mention):
+                word = "[ät]" + word
+
             translated += " " + linebreak + word if translated else linebreak + word
+        translated += mentions + ")" if mentions else ""
 
         return translated
 

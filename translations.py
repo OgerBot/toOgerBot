@@ -531,11 +531,8 @@ dot = [" hätt ich gsachd.",
   ", des bascht scho.",
   ", alda.",
   ", tadsächlich sogar.",
-  ". Etzala. ",
-  ". ",
-  ". ",
-  ". ",
-  ". "
+  ". Etzala.",
+  *(["."]*3)
 ]
 
 colon = [", des heißd im Glaadegsd",
