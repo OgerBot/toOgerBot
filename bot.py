@@ -47,7 +47,7 @@ def inline_translate(update, context):
         else:
             audio_id = random.randint(0, len(audios))
         audiofile, title = audios[audio_id].split(";")
-        title = OgerTranslator.translate(title)
+        #title = OgerTranslator.translate(title)
         results.append(InlineQueryResultAudio(
             id = "audio"+str(audio_id),
             audio_url = audiofile,
