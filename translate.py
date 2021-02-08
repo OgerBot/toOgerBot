@@ -33,15 +33,18 @@ class OgerTranslator():
                 word = word[1:]
 
             if word[-1] == '"':
-                quotation = "end"
+                if not quotation == "start":
+                    quotation = "end"
+                else:
+                    quotation = "both"
                 word = word[0:-1]          
 
             punctuation = ""
             if (word[-1] in punctuations and not word[-3:] == "..."):
-                punctuation = word[-1]
-                word = word[0:-1]
+                if not (len(word)>1 and word[-2].isnumeric() and word[-1] == "."):
+                    punctuation = word[-1]
+                    word = word[0:-1]
 
-            # translate whole words if translation available
             if (translations.translations.__contains__(word)):
                 word = translations.translations[word][random.randint(0, len(translations.translations[word])-1)]
             # translate chars otherwise
@@ -54,9 +57,9 @@ class OgerTranslator():
                     punctuation = translations.punctuations[punctuation][random.randint(0, len(translations.punctuations[punctuation])-1)]
                 word += punctuation
 
-            if quotation == "start":
+            if quotation in ["start", "both"]:
                 word = translations.quotationMark[random.randint(0, len(translations.quotationMark)-1)] + word
-            elif quotation == "end":
+            if quotation in ["end", "both"]:
                 word += '"'
 
             if (is_mention):
