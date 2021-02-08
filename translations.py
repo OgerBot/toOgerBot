@@ -25,8 +25,8 @@ translations = {
 
   "alter": ["alda", "alla "],
   "Alter": ["Alda", "Alla "],
-  "hallo": ["meddl loide", "servus und wilkommne", "servus unn an herdsliches wilkommne", "gonitschiwa"],
-  "Hallo": ["Meddl loide", "Servus und wilkommne", "Servus unn an herdsliches wilkommne", "Gonitschiwa"],
+  "hallo": [*["meddl loide"]*2, "servus und wilkommne", "servus unn an herdsliches wilkommne", "gonitschiwa"],
+  "Hallo": [*["Meddl loide"]*2, "Servus und wilkommne", "Servus unn an herdsliches wilkommne", "Gonitschiwa"],
 
   "leute": ["loide"],
   "Leute": ["Loide"],
@@ -504,16 +504,17 @@ translations = {
 
   "Mund": ["Schlund"],
 
-  "Gerade": ["Grad", "Jedsd grad"],
-  "gerade": ["grad", "jedsd grad"]
+  "Gerade": ["Grad", "Jeds grad", "Etzadla grad", "Etzadla"],
+  "gerade": ["grad", "jeds grad", "etzadla grad", "etzadla"],
+
+  "...": ["und so", "und so weida", "joaa", "ähh", "... ..."]
 }
 
 questionMark = [
   "? Oda wat?",
   ", hä?",
   " und weida?",
-  "?",
-  "?"
+  *["?"]*3
 ]
 
 exclamationMark = [
@@ -532,18 +533,21 @@ dot = [" hätt ich gsachd.",
   ", alda.",
   ", tadsächlich sogar.",
   ". Etzala.",
-  *(["."]*3)
+  *["."]*4
 ]
 
-colon = [", des heißd im Glaadegsd",
-   ": "
+colon = [", des heißd im Glaadegsd: ",
+   ": ",
+   " häd ich jeds gsacht: "
 ]
 
 twistedChars = {
   "hen$": ["hn$"],
+  "gegen": ["gechen"],
+  "Gegen": ["Gechen"],
   "en$": ["ne$"],
   "tz": ["ds"],
-  "tel": ["dl"],
+  "tel$": ["dl$"],
   "ph": ["f"],
   "Ph": ["F"],
   "pa": ["boa"],
@@ -568,6 +572,11 @@ twistedChars = {
   "P": ["B"],
   "k": ["g"],
   "K": ["G"],
+  "^gem": ["^gm"],
+  "^Gem": ["^Gm"],
+  "^ges": ["^gs"],
+  "^Ges": ["Gs"],
+  "tag$": ["dach$"],
   "...$": [" und so$", " und so weida$", " joaa$", " ähh$", "... ...$"]
 }
 
