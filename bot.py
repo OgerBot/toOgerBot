@@ -15,7 +15,18 @@ token = open("token.SECRET").read().replace("\n", "")
 updater = Updater(token=token, use_context=True)
 dispatcher = updater.dispatcher
 
-audios = open("audios.txt", "r", encoding="utf-8").read().split("\n")[0:-1]
+audios = open("audios.csv", "r", encoding="utf-8").read().split("\n")[0:-1]
+random.shuffle(audios)
+audio_files = []
+audio_titles = []
+audio_titles_lowered = []
+for audio in audios:
+    audio = audio.split(";")
+    audio_files.append(audio[0])
+    audio_titles.append(audio[1])
+    audio_titles_lowered.append(audio[1].lower())
+audios = None
+
 
 def start(update, context):
     startnachricht = "Hallo. Ich übersetze deinen Scheiß in Meddlfrängisch! Schreib:"
@@ -37,21 +48,22 @@ def inline_translate(update, context):
     query = update.inline_query.query
     results = []
 
-    audio_id = -1
-    if query and len(query) < 16:
-        for i in range(len(audios)):
-            if query.lower() in audios[i].split(";")[1].lower():
-                audio_id = i
-                break
+    audio_id = []
+    if 2 < len(query) < 16:
+        for i in range(len(audio_titles)):
+            if query.lower() in audio_titles_lowered[i]:
+                audio_id.append(i)
+                if len(audio_id) == 3:
+                    break
 
-    if audio_id == -1 and (not query or len(query) < 16):
-        audio_id = random.randint(0, len(audios))
+    if audio_id == [] and (not query or len(query) < 16):
+        audio_id = [random.randint(0, len(audio_titles))]
 
-    if audio_id > -1:
-        audiofile, title = audios[audio_id].split(";")
+    for aud_id in audio_id:
+        audiofile, title = audio_files[aud_id], audio_titles[aud_id]
         #title = OgerTranslator.translate(title)
         results.append(InlineQueryResultVoice(
-            id = "voice"+str(audio_id),
+            id = "voice"+str(aud_id),
             voice_url  = audiofile,
             title = title,
             caption = title
