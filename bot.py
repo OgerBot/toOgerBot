@@ -2,7 +2,7 @@
 from telegram.ext import Updater
 from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
-from telegram import InlineQueryResultArticle, InlineQueryResultAudio, InputTextMessageContent
+from telegram import InlineQueryResultArticle, InputTextMessageContent, InlineQueryResultVoice
 from telegram.ext import InlineQueryHandler
 from translate import OgerTranslator
 import logging
@@ -48,9 +48,9 @@ def inline_translate(update, context):
             audio_id = random.randint(0, len(audios))
         audiofile, title = audios[audio_id].split(";")
         #title = OgerTranslator.translate(title)
-        results.append(InlineQueryResultAudio(
+        results.append(InlineQueryResultVoice(
             id = "audio"+str(audio_id),
-            audio_url = audiofile,
+            voice_url  = audiofile,
             title = title,
             caption = title
             )
