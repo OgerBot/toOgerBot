@@ -37,19 +37,21 @@ def inline_translate(update, context):
     query = update.inline_query.query
     results = []
 
-    if len(query.split(' ')) == 1 or not query:
-        audio_id = 0
-        if query:
-            for i in range(len(audios)):
-                if query.lower() in audios[i].split(";")[1].lower():
-                    audio_id = i
-                    break
-        else:
-            audio_id = random.randint(0, len(audios))
+    audio_id = -1
+    if query and len(query) < 16:
+        for i in range(len(audios)):
+            if query.lower() in audios[i].split(";")[1].lower():
+                audio_id = i
+                break
+
+    if audio_id == -1 and (not query or len(query) < 16):
+        audio_id = random.randint(0, len(audios))
+
+    if audio_id > -1:
         audiofile, title = audios[audio_id].split(";")
         #title = OgerTranslator.translate(title)
         results.append(InlineQueryResultVoice(
-            id = "audio"+str(audio_id),
+            id = "voice"+str(audio_id),
             voice_url  = audiofile,
             title = title,
             caption = title
