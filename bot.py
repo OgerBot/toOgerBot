@@ -81,6 +81,7 @@ def inline_translate(update, context):
                 description = translation
             )
         )
+    results.reverse()
     context.bot.answer_inline_query(update.inline_query.id, results)
 
 start_handler = CommandHandler('start', start)
