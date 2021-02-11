@@ -235,7 +235,7 @@ http://drachenboard.ml/soundfiles/metaldrachen.mp3;die Metaldrachenarmee wird si
 http://drachenboard.ml/soundfiles/fangemeinde.mp3;Fangemeinde irgendwann so groß
 http://drachenboard.ml/soundfiles/derbestelachtzumschluss.mp3;der Beste lacht zum Schluss
 http://drachenboard.ml/soundfiles/draumberuf.mp3;Traumberuf? Hab ich ned
-http://drachenboard.ml/soundfiles/ads.mp3;Legasdenie und ADS
+#http://drachenboard.ml/soundfiles/ads.mp3;Legasdenie und ADS# DUPLICATE
 http://drachenboard.ml/soundfiles/bamtut.mp3;BAM tut des weh
 http://drachenboard.ml/soundfiles/drachelacht1.mp3;Drache lacht
 http://drachenboard.ml/soundfiles/drachelacht2.mp3;Drache lacht 2
@@ -416,7 +416,7 @@ http://drachenboard.ml/soundfiles/spermaistweis.mp3;Sperma ist weiß #mussmanwis
 http://drachenboard.ml/soundfiles/analsexgeil.mp3;Analsex = geil
 http://drachenboard.ml/soundfiles/analsex.mp3;was denkst du über Analsex?
 http://drachenboard.ml/soundfiles/eischleifen.mp3;Ei auf Boden schleifen
-http://drachenboard.ml/soundfiles/netzujung.mp3;net zu jung, nur zu eng
+#http://drachenboard.ml/soundfiles/netzujung.mp3;net zu jung, nur zu eng# DUPLICATE
 http://drachenboard.ml/soundfiles/fingerpo.mp3;Finger in den Po
 http://drachenboard.ml/soundfiles/fingerimpo.mp3;Finger in Po 2
 http://drachenboard.ml/soundfiles/grosbr.mp3;große Brüste
@@ -458,11 +458,11 @@ http://drachenboard.ml/soundfiles/guy.mp3;Guy!
 http://drachenboard.ml/soundfiles/haltyourmouth.mp3;Halt your mouth
 http://drachenboard.ml/soundfiles/ibustedyou.mp3;I busted YOU
 http://drachenboard.ml/soundfiles/icanyounot.mp3;I can you not hear
-http://drachenboard.ml/soundfiles/inotexpert.mp3;I not expert
-http://drachenboard.ml/soundfiles/amilabert.mp3;n Ami labert übern Deutschen
-http://drachenboard.ml/soundfiles/asshole.mp3;Asshole
-http://drachenboard.ml/soundfiles/byebye.mp3;Bye Bye
-http://drachenboard.ml/soundfiles/cometome.mp3;COME TO ME
+#http://drachenboard.ml/soundfiles/inotexpert.mp3;I not expert# DUPLICATE
+#http://drachenboard.ml/soundfiles/amilabert.mp3;n Ami labert übern Deutschen# DUPLICATE
+#http://drachenboard.ml/soundfiles/asshole.mp3;Asshole# DUPLICATE
+#http://drachenboard.ml/soundfiles/byebye.mp3;Bye Bye# DUPLICATE
+#http://drachenboard.ml/soundfiles/cometome.mp3;COME TO ME# DUPLICATE
 http://drachenboard.ml/soundfiles/icantlittle.mp3;I cant little speak English
 http://drachenboard.ml/soundfiles/ihearyounot.mp3;I hear you not
 http://drachenboard.ml/soundfiles/iloveingermany.mp3;I love in Germany
@@ -574,7 +574,7 @@ http://drachenboard.ml/soundfiles/ah.mp3;Ähh 2
 http://drachenboard.ml/soundfiles/ahm.mp3;Ähm
 http://drachenboard.ml/soundfiles/aehm.mp3;Ähm 2
 http://drachenboard.ml/soundfiles/alterwas.mp3;Alter was?
-http://drachenboard.ml/soundfiles/gut.mp3;Gut
+#http://drachenboard.ml/soundfiles/gut.mp3;Gut# Audio does not work well in Telegram
 http://drachenboard.ml/soundfiles/ha.mp3;Hä
 http://drachenboard.ml/soundfiles/junge.mp3;Junge
 http://drachenboard.ml/soundfiles/moment.mp3;Moment
@@ -607,3 +607,4 @@ http://drachenboard.ml/soundfiles/klingelstander.mp3;herbstliche Atmosphäre im 
 http://drachenboard.ml/soundfiles/life_is_stranger.mp3;Life is Stranger
 http://drachenboard.ml/soundfiles/oregano_oregonos.mp3;der beste Sänger Oregonos
 http://drachenboard.ml/soundfiles/ultravixens_ultrawiggs.mp3;Ultrawichs
+

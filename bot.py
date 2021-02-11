@@ -15,12 +15,14 @@ token = open("token.SECRET").read().replace("\n", "")
 updater = Updater(token=token, use_context=True)
 dispatcher = updater.dispatcher
 
-audios = open("audios.csv", "r", encoding="utf-8").read().split("\n")[0:-1]
+audios = open("audios.csv", "r", encoding="utf-8").read().split("\n")
 random.shuffle(audios)
 audio_files = []
 audio_titles = []
 audio_titles_lowered = []
 for audio in audios:
+    if audio.strip() == "" or audio[0] == "#": # skip comments
+        continue
     audio = audio.split(";")
     audio_files.append(audio[0])
     audio_titles.append(audio[1])
