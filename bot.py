@@ -77,7 +77,7 @@ def inline_translate(update, context):
                 id = hash(query),
                 title = 'Meddlfrängische Übersetzung.',
                 input_message_content = InputTextMessageContent(translation),
-                thumb_url = 'https://ogertranslate.ml/assets/img/dzo-logo.png',
+                thumb_url = 'https://www.oger.ml/oger.png',
                 description = translation
             )
         )
