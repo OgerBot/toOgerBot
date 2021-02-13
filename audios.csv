@@ -1,7 +1,7 @@
 http://drachenboard.ml/soundfiles/antworten/ja.mp3;Ja
 http://drachenboard.ml/soundfiles/antworten/nein.mp3;Nein
 http://drachenboard.ml/soundfiles/antworten/nein2.mp3;Nein 2
-http://drachenboard.ml/soundfiles/antworten/hallo.mp3;Hallo
+http://drachenboard.ml/soundfiles/antworten/hallo.mp3;Hallo?
 http://drachenboard.ml/soundfiles/antworten/servus.mp3;Servus
 http://drachenboard.ml/soundfiles/antworten/raeusper.mp3;Räusper
 http://drachenboard.ml/soundfiles/affennecher.mp3;Halt dich da fest du Affennecher
@@ -449,7 +449,7 @@ http://drachenboard.ml/soundfiles/ritaleggdhodne.mp3;Rita leggd Hodne
 http://drachenboard.ml/soundfiles/inotexpert.mp3;I not expert
 http://drachenboard.ml/soundfiles/amilabert.mp3;n Ami labert übern Deutschen
 http://drachenboard.ml/soundfiles/asshole.mp3;Asshole
-http://drachenboard.ml/soundfiles/byebye.mp3;Bye Bye
+#http://drachenboard.ml/soundfiles/byebye.mp3;Bye Bye# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/cometome.mp3;COME TO ME
 http://drachenboard.ml/soundfiles/eiweis.mp3;Ei weiß
 http://drachenboard.ml/soundfiles/guynotfunny.mp3;Guy, its not funny
@@ -556,13 +556,13 @@ http://drachenboard.ml/soundfiles/ihrseidnichts.mp3;IHR SEID NICHTS
 http://drachenboard.ml/soundfiles/bevordiebullnekommen.mp3;BEVOR DIE BULLNE KOMMEN
 http://drachenboard.ml/soundfiles/asozial.mp3;Nur weil ihr so asozial seid ne?
 http://drachenboard.ml/soundfiles/desallerletzte.mp3;DES IS JA WOHL DES ALLERLETZTE
-http://drachenboard.ml/soundfiles/jaa.mp3;Ja
-http://drachenboard.ml/soundfiles/nein.mp3;Nein
-http://drachenboard.ml/soundfiles/nein2.mp3;Nein 2
+#http://drachenboard.ml/soundfiles/jaa.mp3;Ja# DUPLICATE
+#http://drachenboard.ml/soundfiles/nein.mp3;Nein# DUPLICATE
+#http://drachenboard.ml/soundfiles/nein2.mp3;Nein 2# DUPLICATE
 http://drachenboard.ml/soundfiles/jaodernein.mp3;Ja oder Nein
-http://drachenboard.ml/soundfiles/hallo.mp3;Hallo?
+#http://drachenboard.ml/soundfiles/hallo.mp3;Hallo?# DUPLICATE
 http://drachenboard.ml/soundfiles/hallo2.mp3;Hallo? 2
-http://drachenboard.ml/soundfiles/servus.mp3;Servus
+#http://drachenboard.ml/soundfiles/servus.mp3;Servus# DUPLICATE
 http://drachenboard.ml/soundfiles/keineahn.mp3;keine Ahnung
 http://drachenboard.ml/soundfiles/isnice.mp3;is nice
 http://drachenboard.ml/soundfiles/wasisdes.mp3;was is des
@@ -574,7 +574,7 @@ http://drachenboard.ml/soundfiles/ah.mp3;Ähh 2
 http://drachenboard.ml/soundfiles/ahm.mp3;Ähm
 http://drachenboard.ml/soundfiles/aehm.mp3;Ähm 2
 http://drachenboard.ml/soundfiles/alterwas.mp3;Alter was?
-#http://drachenboard.ml/soundfiles/gut.mp3;Gut# Audio does not work well in Telegram
+#http://drachenboard.ml/soundfiles/gut.mp3;Gut# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/ha.mp3;Hä
 http://drachenboard.ml/soundfiles/junge.mp3;Junge
 http://drachenboard.ml/soundfiles/moment.mp3;Moment
