@@ -1,4 +1,5 @@
 # adapted from https://ogertranslate.ml/translation/de-oger.js
+# originally authored by https://github.com/MoriPastaPizza
 
 translations = {
   "Rainer": ["Ruiner", "Reiner", "Dreger", "Kaschber", "Legasdeniger", "Fettsack", "viddl Iddaliener", "Butter", "Mastoger", "Suppengmogo", "Speggi", "Vierteltonner"],
@@ -495,8 +496,6 @@ translations = {
 
   "tatsächlich": ["tazächlich", "tadzächlich", "etzala tazächlich sogar", "etzala tadzächlich sogar"],
 
-  "Metal": ["Meddl"],
-
   "Besuche": ["Pilgerreisen"],
   "Besuch": ["Pilgerreise"],
 
@@ -539,9 +538,9 @@ dot = [" hätt ich gsachd.",
   *["."]*4
 ]
 
-colon = [", des heißd im Glaadegsd: ",
-   ": ",
-   " häd ich jeds gsacht: "
+colon = [", des heißd im Glaadegsd:",
+   ":",
+   " häd ich jeds gsacht:"
 ]
 
 twistedChars = {
