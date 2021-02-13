@@ -507,7 +507,10 @@ translations = {
   "Gerade": ["Grad", "Jeds grad", "Etzadla grad", "Etzadla"],
   "gerade": ["grad", "jeds grad", "etzadla grad", "etzadla"],
 
-  "...": ["und so", "und so weida", "joaa", "ähh", "... ..."]
+  "...": ["und so", "und so weida", "joaa", "ähh", "... ..."],
+
+  "Metal": ["Meddl"],
+  "metal": ["meddl"]
 }
 
 questionMark = [
