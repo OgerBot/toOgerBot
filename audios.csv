@@ -244,7 +244,7 @@ http://drachenboard.ml/soundfiles/drachelacht4.mp3;Drache lacht 4
 http://drachenboard.ml/soundfiles/drachelacht6.mp3;Drache lacht 5
 http://drachenboard.ml/soundfiles/drachenlord.mp3;Drachenlord
 http://drachenboard.ml/soundfiles/drachesingt.mp3;Drache singt
-http://drachenboard.ml/soundfiles/ehmloid.mp3;ehm Loide
+#http://drachenboard.ml/soundfiles/ehmloid.mp3;ehm Loide# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/etzela.mp3;etzela
 http://drachenboard.ml/soundfiles/ferde.mp3;Hol dir Ferde!
 http://drachenboard.ml/soundfiles/fliegeaufrainer.mp3;Fliege greift Rainer an
@@ -327,7 +327,7 @@ http://drachenboard.ml/soundfiles/weilessoist.mp3;Das ist weil es so ist
 http://drachenboard.ml/soundfiles/wertrollt.mp3;Wer trollt fliegt
 http://drachenboard.ml/soundfiles/zusammenhang.mp3;Wo verstehst du den Zusammenhang nicht
 http://drachenboard.ml/soundfiles/psychisch.mp3;geistig und psychisch
-http://drachenboard.ml/soundfiles/afrosch.mp3;a Frosch
+#http://drachenboard.ml/soundfiles/afrosch.mp3;a Frosch# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/arichtig.mp3;A richtig und B falsch
 http://drachenboard.ml/soundfiles/arschauf.mp3;Arsch aufreißen
 http://drachenboard.ml/soundfiles/ausdiemaus.mp3;aus die Maus, Brüggl raus
@@ -378,7 +378,7 @@ http://drachenboard.ml/soundfiles/dickdickdick.mp3;nur weil ich dick dick dick b
 http://drachenboard.ml/soundfiles/freunde.mp3;FREUNDEEE
 http://drachenboard.ml/soundfiles/ichbruggldiescheiseauseuchraus.mp3;Ich brüggl die Scheiße aus euch raus!
 http://drachenboard.ml/soundfiles/ihrhabtkeinechance.mp3;Ihr habt keine Chance!
-http://drachenboard.ml/soundfiles/kaggnazis1.mp3;Kaggnazis
+#http://drachenboard.ml/soundfiles/kaggnazis1.mp3;Kaggnazis# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/kleinenmiesendrecksschweine.mp3;kleinen miesen Drecksschweine
 http://drachenboard.ml/soundfiles/kleinepisser.mp3;kleine Pisser
 http://drachenboard.ml/soundfiles/kommteuch.mp3;Kommt euch, traut zu mir!
@@ -392,7 +392,7 @@ http://drachenboard.ml/soundfiles/trauteuchkommtzumir.mp3;Traut euch, kommt zu m
 http://drachenboard.ml/soundfiles/mehramsack.mp3;mehr Haare am Sack als du auf Kopf
 http://drachenboard.ml/soundfiles/jungfrau.mp3;keine Jungfrau mehr
 http://drachenboard.ml/soundfiles/andereeier.mp3;Eier sind weg
-http://drachenboard.ml/soundfiles/wiggsn2.mp3;Wiggsn?
+#http://drachenboard.ml/soundfiles/wiggsn2.mp3;Wiggsn?# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/nichtwiggsn.mp3;Nicht wiggsn!
 http://drachenboard.ml/soundfiles/netsoerfahren.mp3;net so erfahren
 http://drachenboard.ml/soundfiles/maennernurseggs.mp3;mit Männer nur körperlich
@@ -442,13 +442,13 @@ http://drachenboard.ml/soundfiles/spermavonmann.mp3;Sperma von 1 Mann schlucken
 http://drachenboard.ml/soundfiles/ramonerschwangerenutte.mp3;Ramoner schwangere Nutte
 http://drachenboard.ml/soundfiles/wassertier88.mp3;Wassertier88
 http://drachenboard.ml/soundfiles/rainerfiqqtramoner.mp3;Rainer fiqqt Ramoner Winkler
-http://drachenboard.ml/soundfiles/mikropimmel2.mp3;Mikropimmel
+#http://drachenboard.ml/soundfiles/mikropimmel2.mp3;Mikropimmel# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/nageltfraupopp.mp3;Rainer nagelt Frau Popp
 http://drachenboard.ml/soundfiles/rudihat.mp3;Rudi hat Ramoner gefiqqt
 http://drachenboard.ml/soundfiles/ritaleggdhodne.mp3;Rita leggd Hodne
 http://drachenboard.ml/soundfiles/inotexpert.mp3;I not expert
 http://drachenboard.ml/soundfiles/amilabert.mp3;n Ami labert übern Deutschen
-http://drachenboard.ml/soundfiles/asshole.mp3;Asshole
+#http://drachenboard.ml/soundfiles/asshole.mp3;Asshole# Sound is sent as file in Telegram
 #http://drachenboard.ml/soundfiles/byebye.mp3;Bye Bye# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/cometome.mp3;COME TO ME
 http://drachenboard.ml/soundfiles/eiweis.mp3;Ei weiß
@@ -561,13 +561,13 @@ http://drachenboard.ml/soundfiles/desallerletzte.mp3;DES IS JA WOHL DES ALLERLET
 #http://drachenboard.ml/soundfiles/nein2.mp3;Nein 2# DUPLICATE
 http://drachenboard.ml/soundfiles/jaodernein.mp3;Ja oder Nein
 #http://drachenboard.ml/soundfiles/hallo.mp3;Hallo?# DUPLICATE
-http://drachenboard.ml/soundfiles/hallo2.mp3;Hallo? 2
+#http://drachenboard.ml/soundfiles/hallo2.mp3;Hallo? 2# Sound is sent as file in Telegram
 #http://drachenboard.ml/soundfiles/servus.mp3;Servus# DUPLICATE
 http://drachenboard.ml/soundfiles/keineahn.mp3;keine Ahnung
 http://drachenboard.ml/soundfiles/isnice.mp3;is nice
-http://drachenboard.ml/soundfiles/wasisdes.mp3;was is des
+#http://drachenboard.ml/soundfiles/wasisdes.mp3;was is des# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/aber.mp3;aber...
-http://drachenboard.ml/soundfiles/genau.mp3;Genau
+#http://drachenboard.ml/soundfiles/genau.mp3;Genau# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/rausper.mp3;Räusper
 http://drachenboard.ml/soundfiles/aehh.mp3;Ähh
 http://drachenboard.ml/soundfiles/ah.mp3;Ähh 2
@@ -575,7 +575,7 @@ http://drachenboard.ml/soundfiles/ahm.mp3;Ähm
 http://drachenboard.ml/soundfiles/aehm.mp3;Ähm 2
 http://drachenboard.ml/soundfiles/alterwas.mp3;Alter was?
 #http://drachenboard.ml/soundfiles/gut.mp3;Gut# Sound is sent as file in Telegram
-http://drachenboard.ml/soundfiles/ha.mp3;Hä
+#http://drachenboard.ml/soundfiles/ha.mp3;Hä# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/junge.mp3;Junge
 http://drachenboard.ml/soundfiles/moment.mp3;Moment
 http://drachenboard.ml/soundfiles/schnaufen1.mp3;Schnaufen
@@ -583,11 +583,11 @@ http://drachenboard.ml/soundfiles/schnaufen2.mp3;Schnaufen 2
 http://drachenboard.ml/soundfiles/schnaufen3.mp3;Schnaufen 3
 http://drachenboard.ml/soundfiles/stohn.mp3;Ohhh
 http://drachenboard.ml/soundfiles/ooohrg.mp3;Oooh
-http://drachenboard.ml/soundfiles/was.mp3;Was?
+#http://drachenboard.ml/soundfiles/was.mp3;Was?# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/washolle2.mp3;Was zur Hölle?
 http://drachenboard.ml/soundfiles/werisndes.mp3;Wer isn des?
 http://drachenboard.ml/soundfiles/warum1.mp3;Warum?
-http://drachenboard.ml/soundfiles/warumah.mp3;Warumäh
+#http://drachenboard.ml/soundfiles/warumah.mp3;Warumäh# Sound is sent as file in Telegram
 http://drachenboard.ml/soundfiles/warumdenn.mp3;Warum denn?
 http://drachenboard.ml/soundfiles/warumeh.mp3;Warumääh
 http://drachenboard.ml/soundfiles/warummachstdudes.mp3;Warum machst du des?
@@ -637,8 +637,8 @@ http://pr0gramm.me/sounds/Dragenlord/256%20Drachenlord%20-%20Aber%20ab%20und%20z
 http://pr0gramm.me/sounds/Dragenlord/257%20Drachenlord%20-%20Und%20da%20sag%20ich%20nur,%20dass%20es%20geplant%20ist,%20nicht%20dass%20es%20stattfindet.mp3;Und da sag ich nur, dass es geplant ist, nicht dass es stattfindet
 http://pr0gramm.me/sounds/Dragenlord/258%20Drachenlord%20-%20Ich%20wei%c3%9f%20nicht%20warum.mp3;Ich weiß nicht warum
 http://pr0gramm.me/sounds/Dragenlord/259%20Drachenlord%20-%20Ich%20hab%20auch%20zu%20%c3%bcberhaupt%20nichts%20Lust.mp3;Ich hab auch zu überhaupt nichts Lust
-http://pr0gramm.me/sounds/Dragenlord/260%20Drachenlord%20-%20Voll%20f%c3%bcrn%20Arsch.mp3;Voll fürn Arsch
-http://pr0gramm.me/sounds/Dragenlord/261%20Drachenlord%20-%20Das%20war%20voll%20krass.mp3;Das war voll krass
+#http://pr0gramm.me/sounds/Dragenlord/260%20Drachenlord%20-%20Voll%20f%c3%bcrn%20Arsch.mp3;Voll fürn Arsch# Sound is sent as file in Telegram
+#http://pr0gramm.me/sounds/Dragenlord/261%20Drachenlord%20-%20Das%20war%20voll%20krass.mp3;Das war voll krass# Sound is sent as file in Telegram
 http://pr0gramm.me/sounds/Dragenlord/262%20Drachenlord%20-%20Und%20tschau%20Loide.mp3;Und tschau Loide
 http://pr0gramm.me/sounds/Dragenlord/263%20Drachenlord%20-%20Okay%20es%20reicht%20auf%20jedenfall%20erstmal%20f%c3%bcr%20Stream%20heudde.mp3;Okay es reicht auf jedenfall erstmal für Stream heudde
 http://pr0gramm.me/sounds/Dragenlord/264%20Drachenlord%20-%20Ich%20werd%20nochmal%20ein%20paar%20Grundregel%20festlegen.mp3;Ich werd nochmal ein paar Grundregel festlegen
@@ -661,7 +661,6 @@ http://pr0gramm.me/sounds/Dragenlord/285%20Drachenlord%20-%20Spa%c3%9f%20kommt%2
 http://pr0gramm.me/sounds/Dragenlord/286%20Drachenlord%20-%20Ich%20hoffe,%20Ihr%20k%c3%b6nnt%20dr%c3%bcber%20lachen.mp3;Ich hoffe, Ihr könnt drüber lachen
 http://pr0gramm.me/sounds/Dragenlord/287%20Drachenlord%20-%20Was%20hast%20n%20da%20wieder%20f%c3%bcrn%20Schei%c3%9f%20gemacht.mp3;Was hast n da wieder fürn Scheiß gemacht
 http://pr0gramm.me/sounds/Dragenlord/289%20Drachenlord%20-%20%c3%96hhh%20ist%20der%20h%c3%a4sslich.mp3;Öhhh ist der hässlich
-http://pr0gramm.me/sounds/Dragenlord/292%20Drachenlord%20-%20Ich%20empfange%20meine%20Haiter%20mit%20offenen%20Armen.mp3;Ich empfange meine Haiter mit offenen Armen
 http://pr0gramm.me/sounds/Dragenlord/292%20Drachenlord%20-%20Ich%20empfange%20meine%20Haiter%20mit%20offenen%20Armen.mp3;Ich empfange meine Haiter mit offenen Armen
 http://pr0gramm.me/sounds/Dragenlord/293%20Drachenlord%20-%20Und%20falls%20Ihr%20Euch%20l%c3%a4cherlich%20f%c3%bchlt,%20es%20tut%20mir%20echt%20Leid.mp3;Und falls Ihr Euch lächerlich fühlt, es tut mir echt Leid
 http://pr0gramm.me/sounds/Dragenlord/294%20Drachenlord%20-%20Ich%20erwarte%20nicht,%20dass%20jemand%20der%20keine%20Ahnung%20von%20Meddl%20hat,%20kapiert,%20was%20ich%20mach.mp3;Ich erwarte nicht, dass jemand der keine Ahnung von Meddl hat, kapiert, was ich mach
