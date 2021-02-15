@@ -21,12 +21,15 @@ audios_loaded = 0
 audio_files, audio_titles, audio_titles_lowered = [], [], []
 
 def load_audios():
+    global audios_loaded
+    global audios_ttl
     global audio_files
     global audio_titles
     global audio_titles_lowered
 
     if audios_loaded + audios_ttl > time.time(): # re-load audios from file if <audios_ttl> seconds have passed since they were last loaded
         return
+
     audios = open("audios.csv", "r", encoding="utf-8").read().split("\n")
     random.shuffle(audios)
 
@@ -41,6 +44,7 @@ def load_audios():
         audio_titles.append(audio[1])
         audio_titles_lowered.append(audio[1].lower())
     audios = None
+    audios_loaded = time.time()
 
 
 def start(update, context):
